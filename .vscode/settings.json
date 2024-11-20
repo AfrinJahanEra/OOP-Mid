@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\afrin\\Downloads\\json-simple-1.1.1.jar",
+        "c:\\Users\\afrin\\Downloads\\junit-jupiter-api-5.11.3.jar",
+        "c:\\Users\\afrin\\Downloads\\junit-jupiter-engine-5.11.3.jar"
+    ]
+}

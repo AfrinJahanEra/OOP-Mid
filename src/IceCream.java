@@ -1,22 +1,21 @@
+abstract class IceCream {
+    private String type;
+    private int IceCreamename;
+    private double price;
 
-abstract  class IceCream {
-    String type;
-    String IceCreamename;
-    double price;
-
-    public IceCream(String type,String IceCreamename,double price){
-        this.type=type;
-        this.IceCreamename=IceCreamename;
-        this.price=price;
+    public IceCream(String type, int IceCreamename, double price) {
+        this.type = type;
+        this.IceCreamename = IceCreamename;
+        this.price = price;
     }
 
-    public String getType(){
-        return this.type;
+    public String gettype() {
+        return type;
     }
-    public String getIceCreamename(){
-        return this.IceCreamename;
+
+    public int getIceCreamename() {
+        return IceCreamename;
     }
-    public double price(){
-        return this.price;
-    }
+
+    public abstract double getTotalPrice() ;
 }

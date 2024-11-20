@@ -17,5 +17,11 @@ public class paperCup extends Order{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'TotalPrice'");
     }
+
+    @Override
+    protected Order[] getItems() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getItems'");
+    }
     
 }

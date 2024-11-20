@@ -9,4 +9,5 @@ abstract class Order {
     public abstract double subPrice(double price);
     public abstract double tax(String type);
     public abstract double TotalPrice();
+    protected abstract Order[] getItems();
 }

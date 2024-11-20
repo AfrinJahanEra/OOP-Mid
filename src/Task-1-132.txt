@@ -1,0 +1,22 @@
+In class-inventorySystem
+------------------------------
+line 6-198 , large class , a huge class handling multiple resposibilities violating srp .
+
+line 74-102, conditional complexity , here switch cases have been used if we want to add a new discountType then we have to change the code.
+
+line 74-198 , shotgun surgeon , have to do many change if added new discount type or report type.
+
+line 6-38 , premitive obsesion , so much use of int ,string etc datatype rather then build a suitable class .
+
+line 41 , long parameter , more than 4 or 5 parameter is passing.
+
+line 74-102, magic number , 0.8 , 0.85 , 10 are magic numbers.
+
+line 74-198, feature envy, the inventorySystem class is doing so many work rather than other class.
+
+
+
+
+In warehouse class 
+--------------------------
+line 8,9 , bad naming , seeing i alone we cant say what it is.
